@@ -1,0 +1,65 @@
+.preview {
+    position: fixed;
+    bottom: 0;
+    left: 170px;
+    right:0;
+    background: transparent;
+    background-color: rgb(255, 255, 255, .2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    /* z-index: 3; */
+}
+.preview img {
+    width: 15%;
+    width: 50px;
+    height: 50px;
+}
+.preview h2{
+    width: 20%;
+    color: #ffff;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.preview h2 .subtitle {
+    color: #f2f2f27c;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.preview .icon {
+    width: 5%;
+    font-size: 35px;
+    color: #ffff;
+    outline: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.preview .icon .bi{
+    cursor: pointer;
+    outline: none;
+}
+.preview .icon #download_music {
+    font-size: 25px;
+    margin: 10px;  
+}
+.preview .master_play .icon .bi:nth-child(3) {
+    border: 1px solid rgb(105, 105, 105, .1);
+    border-radius: 50%;
+    padding: 1px 5px 0px 7px;
+    margin: 0px 5px;
+}
+.preview .container-audio{
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+audio {
+    width: 100%;
+}
+audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
+    margin: 0;
+}
